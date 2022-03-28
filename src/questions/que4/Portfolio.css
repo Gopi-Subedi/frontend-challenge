@@ -1,0 +1,16 @@
+.pfolio-container {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.pfolio-title {
+  color: red;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.pfolio-link {
+  font-size: 16px;
+  margin-bottom: 10px;
+}

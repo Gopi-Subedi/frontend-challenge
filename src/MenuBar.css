@@ -1,0 +1,26 @@
+.nav-container {
+  height: 50px;
+  background-color: wheat;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  margin-bottom: 1em;
+}
+
+.nav-links {
+  display: flex;
+  margin-left: 1em;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.lk-que {
+  margin-right: 10px;
+  color: red;
+  font-size: 700;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}

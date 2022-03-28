@@ -1,0 +1,73 @@
+.db-container {
+  height: auto;
+  width: 95%;
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: darkgray;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding-bottom: 10px;
+}
+.widget-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.widget1,
+.widget2,
+.widget3,
+.widget4,
+.widget5,
+.widget6 {
+  background-color: white;
+  margin-right: 2em;
+  border: 1px solid red;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.widget1 {
+  width: 400px;
+  height: 150px;
+}
+.widget2 {
+  width: 300px;
+  height: 250px;
+}
+.widget3 {
+  width: 300px;
+  height: 200px;
+}
+.widget4 {
+  width: 400px;
+  height: 250px;
+}
+
+.widget5 {
+  width: 300px;
+  height: 100px;
+}
+
+.widget6 {
+  width: 300px;
+  height: 170px;
+}
+@media screen and (max-width: 1000px) {
+  .db-container {
+    height: auto;
+    width: 95%;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: red;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .widget-container {
+    display: flex;
+  }
+  .col3 {
+    display: flex;
+  }
+}
